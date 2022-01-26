@@ -1,7 +1,7 @@
 # BlackJack With Rolling Probabilities
 The underlying probabilities of a blackjack game are unintuitive. 
 
-Blackjack is a series of dependant trials - each new card dealt dramatically shifts the edge towards the player or the house. As a result probabilities are in flux, and can be impractical to calculate without computer simulation.
+Blackjack is a series of dependant trials - each new card dealt dramatically shifts the edge towards the player or the house. As a result probabilities are complex, and can be impractical to calculate without computer simulation.
 
 This implementation of blackjack informs the player of relevant probabilities throughout the game. Playing the game was quite revelatory for me. Consider: the probability of the dealer going bust with an upcard of 6 is 42%. Yet, with an upcard of 7, the same probability drops to 26%.
 
