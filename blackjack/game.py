@@ -125,7 +125,7 @@ class Game:
             print('Probability that the dealer scores {} or more: {:.2f}%'.format(player_score, (self.calc_prob(player_score) - self.calc_prob(22)) ))
         elif self.dealer.hand.reveal == False and player_score < 17: 
             print('Probability that next hit will bring your score to between 17 and 21: {:.2f}%'.format(self.sim_hit_prob * 100))
-        print('________________________________________')
+        # print('________________________________________')
         input()
         
     def stand(self, prints = True):
