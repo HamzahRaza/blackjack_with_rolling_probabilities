@@ -282,7 +282,9 @@ class Game:
                     #input validation
                     if player_move == 'hit':
                         self.hit()
-                    elif player_move == 'double':
+                    elif player_move == 'double':                        
+                        self.player.cash -= int(self.bet)
+                        self.bet = str(int(self.bet) * 2)
                         self.hit()
                         if self.player.hand.score() <= 21:
                             self.stand()
