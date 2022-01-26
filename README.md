@@ -7,3 +7,4 @@ This implementation of blackjack informs the player of relevant probabilities th
 
 This version of the project is played through the command line, though a GUI could easily be added on top of the existing program. To play, use the command ```python blackjack```.
 
+![blackjack-demo](https://user-images.githubusercontent.com/50002504/151095848-ad83d455-6e1f-4e7e-acba-3a7dd288a4e9.jpg)
